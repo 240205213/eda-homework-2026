@@ -125,7 +125,7 @@ students/240205123/.student.yml
 
 ### 2. 安装 Git for Windows
 
-打开 [Git for Windows 官方下载页](https://git-scm.com/install/windows)，根据电脑类型选择安装程序：普通 Intel/AMD 64 位电脑选择 **x64 Setup**，Windows ARM 电脑选择 **ARM64 Setup**。
+打开 [Git for Windows 官方下载页](https://git-scm.com/install/windows)，根据电脑类型选择安装程序：普通 Intel/AMD 64 位电脑选择 **x64 Setup**，Windows ARM 电脑选择 **ARM64 Setup**。[Git for Windows 视频教程](https://www.bilibili.com/video/BV1LUKk6wEWr)
 
 安装时通常可保留默认设置，并注意：
 
@@ -212,7 +212,8 @@ git config --global user.email
 
 打开 [课程仓库](https://github.com/rosickey/eda-homework-2026)，点击 **Fork**，Owner 选择自己的个人账号，仓库名保留 `eda-homework-2026`，完成创建。
 
-例如用户名为 `wangming123`，自己的 Fork 就是 `wangming123/eda-homework-2026`。Fork 在 GitHub 上创建副本，后面的 Clone 则把副本下载到电脑。[GitHub Fork 操作说明](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo)
+例如用户名为 `wangming123`，自己的 Fork 就是 `wangming123/eda-homework-2026`。Fork 在 GitHub 上创建副本，后面的 Clone 则把副本下载到电脑。[GitHub Fork 操作说明文字](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo)
+[GitHub Fork 操作说明视频](https://www.bilibili.com/video/BV1bd4y1J7Vt)
 
 ### 2. Clone 自己的 Fork
 
