@@ -6,6 +6,84 @@
 
 **第一次提交只注册身份；注册通过后，再提交课程作业。** 本说明不包含具体实验题目，`HW01`、`HW02` 及文件名均为提交流程示例，不代表已发布的作业。具体任务、软件版本、提交格式和截止时间以教师发布的要求为准。
 
+## 第一次提交没有通过的同学，请尽快修改
+
+# EDA 学生注册 PR 错误处理简表
+
+| PR | 学号 | 姓名 | 原因 |
+| --- | --- | --- | --- |
+| 25 | 240205213 | 况佳杰 | 来源分支必须为 9 位学号 |
+| 38 | 240205113 | 饶祖平 | students/240205113/.student.yml：GitHub 用户名格式错误 |
+| 39 | 240205118 | 胡文杰 | students/240205118/.student.yml:2：双引号字符串格式错误 |
+| 51 | 240205218 | 谢煌 | 注册 PR 只能新增 students/240205218/.student.yml |
+| 62 | 240205202 | 李思颖 | students/240205202/.student.yml：必须包含 student_id、name、github_username |
+| 65 | 240205205 | 姜薇 | students/240205205/.student.yml：必须包含 student_id、name、github_username |
+| 86 | 240205415 | 黄观辉 | 来源分支必须为 9 位学号 |
+| 115 | 240205326 | 关明锦 | students/240205326/.student.yml：必须包含 student_id、name、github_username |
+| 120 | 240205319 | 谢文雷 | students/240205319/.student.yml：必须包含 student_id、name、github_username |
+| 127 | 240205325 | 胡晟浩 | 来源分支必须为 9 位学号 |
+| 134 | 240205308 | 张欣 | 首次注册只能新增一个 .student.yml，不能同时交作业或其他文件 |
+| 136 | 240205428 | 王洋 | students/240205428/.student.yml:1：不支持字段 tudent_id |
+| 142 | 240205304 | 江满娥 | 首次注册只能新增一个 .student.yml，不能同时交作业或其他文件 |
+| 144 | 240205406 | 付家靖 | 首次注册只能新增一个 .student.yml，不能同时交作业或其他文件 |
+| 156 | 240205311 | 曾妍 | 首次注册只能新增一个 .student.yml，不能同时交作业或其他文件 |
+| 160 | 240205307 | 邓秀芸 | 来源分支必须为 9 位学号 |
+| 163 | 240205327 | 朱志鹏 | 来源分支必须为 9 位学号 |
+| 168 | 248205505 | 万志洋 | 来源分支必须为 9 位学号 |
+| 171 | 248205504 | 刘玮 | 来源分支必须为 9 位学号 |
+| 178 | 240205408 | 徐郴英 | 注册 PR 只能新增 students/240205408/.student.yml |
+| 179 | 240205223 | 张智强 | 注册 PR 只能新增 students/240205223/.student.yml |
+| 181 | 240205310 | 黎娜 | 来源分支必须为 9 位学号 |
+| 183 | 240205202 | 李思颖 | 来源分支必须为 9 位学号 |
+| 184 | 240205205 | 姜薇 | 来源分支必须为 9 位学号 |
+| 188 | 240205235 | 刘健健 | 来源分支必须为 9 位学号 |
+| 190 | 240205229 | 陈俊杰 | 首次注册只能新增一个 .student.yml，不能同时交作业或其他文件 |
+| 193 | 230205447 | 杨思远 | 来源分支必须为 9 位学号 |
+| 194 | 240205213 | 况佳杰 | 首次注册只能新增一个 .student.yml，不能同时交作业或其他文件 |
+
+## 正确格式
+
+```yaml
+student_id: "240205123"
+name: "张三"
+github_username: "zhangsan123"
+```
+
+文件位置：
+
+```text
+students/240205123/.student.yml
+```
+
+分支名称：
+
+```text
+240205123
+```
+
+> `.student.yml` 内容错误时，直接修改后 `commit`、`push` 即可，不需要重新创建 PR。
+> 分支名错误时，建议用本人9位学号重新建立分支并创建新 PR，同时关闭原错误 PR。
+> 同一学生只保留一个正确的注册 PR。
+
+# 以下同学未提交
+
+| 学号 | 姓名 | 班级 |
+| --- | --- | --- |
+| 240205110 | 许佳莉 | 2402051 |
+| 240205139 | 祝嘉凯 | 2402051 |
+| 240205246 | 马浩文 | 2402052 |
+| 240205317 | 陶俊豪 | 2402053 |
+| 240205345 | 单捷 | 2402053 |
+| 240205417 | 谌鸿亮 | 2402054 |
+| 240205429 | 熊苏帆 | 2402054 |
+| 240205432 | 夏进 | 2402054 |
+| 240205437 | 李寒峰 | 2402054 |
+| 240205442 | 毛振杰 | 2402054 |
+| 240205445 | 陈博睿 | 2402054 |
+| 248205501 | 韩晨 | 2482055 |
+| 248205502 | 李家祥 | 2482055 |
+| 248205503 | 刘诗金奇 | 2482055 |
+
 ## 一、必须遵守的规则
 
 每位同学使用自己的 GitHub 账号、9 位完整学号、学号分支和个人目录。例如，11 专业 1 号学生的学号为 `240201101`：
@@ -40,7 +118,7 @@
 
 ### 2. 安装 Git for Windows
 
-打开 [Git for Windows 官方下载页](https://git-scm.com/install/windows)，根据电脑类型选择安装程序：普通 Intel/AMD 64 位电脑选择 **x64 Setup**，Windows ARM 电脑选择 **ARM64 Setup**。
+打开 [Git for Windows 官方下载页](https://git-scm.com/install/windows)，根据电脑类型选择安装程序：普通 Intel/AMD 64 位电脑选择 **x64 Setup**，Windows ARM 电脑选择 **ARM64 Setup**。[Git for Windows 视频教程](https://www.bilibili.com/video/BV1LUKk6wEWr)
 
 安装时通常可保留默认设置，并注意：
 
@@ -127,7 +205,8 @@ git config --global user.email
 
 打开 [课程仓库](https://github.com/rosickey/eda-homework-2026)，点击 **Fork**，Owner 选择自己的个人账号，仓库名保留 `eda-homework-2026`，完成创建。
 
-例如用户名为 `wangming123`，自己的 Fork 就是 `wangming123/eda-homework-2026`。Fork 在 GitHub 上创建副本，后面的 Clone 则把副本下载到电脑。[GitHub Fork 操作说明](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo)
+例如用户名为 `wangming123`，自己的 Fork 就是 `wangming123/eda-homework-2026`。Fork 在 GitHub 上创建副本，后面的 Clone 则把副本下载到电脑。[GitHub Fork 操作说明文字](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo)
+[GitHub Fork 操作说明视频](https://www.bilibili.com/video/BV1bd4y1J7Vt)
 
 ### 2. Clone 自己的 Fork
 
